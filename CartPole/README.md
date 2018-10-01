@@ -6,6 +6,8 @@ This is a Q-Table approach solving the cartpole balancing problem. The envrionme
 
 For the Q-Table approach, the observation space is discretized. Training is done over a range of 300 episodes with decreasing exploration and learning rates.
 
+<img src="./readme_utils/Q_update_eqn.png" alt="Q value update equation during training"/>
+
 After training, over 100 test episodes, on an average the pole stays balanced for 200 timesteps on each episode
 
 <img src="./readme_utils/test1.gif" width=250/>
