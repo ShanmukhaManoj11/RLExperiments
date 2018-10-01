@@ -6,6 +6,10 @@ This is a Q-Table approach solving the cartpole balancing problem. The envrionme
 
 For the Q-Table approach, the observation space is discretized. 
 
+After training, over 100 episode on an average the pole is balanced for 200 timesteps on each episode
+
+![Alt Text](./test1.gif)
+
 **Next steps:**
 
-Replace the Q-Table with a nerual network that learns the Q-function for the state-action pairs
+Replace the Q-Table with a neural network that learns the Q-function for the state-action pairs
