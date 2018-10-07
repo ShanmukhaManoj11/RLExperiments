@@ -1,2 +1,2 @@
 # RLExperiments
-Reinforcement learning experiments
+Reinforcement learning experiments with Openai gym
