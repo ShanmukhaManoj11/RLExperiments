@@ -20,6 +20,6 @@ After training, over 100 test episodes, on an average the pole stays balanced fo
 
 <img src="./readme_utils/test1.gif" width=250/>
 
-** Next steps: **
+**Next steps:**
 
 The cart moves to the right while balancing the pole. Inorder to maintain the position of the cart, motion along the x axis can be penalized
