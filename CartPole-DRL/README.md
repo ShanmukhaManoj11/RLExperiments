@@ -12,7 +12,7 @@ Memory-replay is used for training the network as follows,
 		* Execute action a and get reward r, new state s' and simulation status d
 		* Store transition (s,a,r,s',d) in the memory D
 		* Sample a random minibatch from D
-		* Set Q_target[j]=r[j] if the episode ends with action a[j], otherwise set Q_target[j]=r[j]+ \gammma * max(Q(s'[j]))
+		* Set Q_target[j]=r[j] if the episode ends with action a[j], otherwise set Q_target[j]=r[j]+ $\gamma$ * max(Q(s'[j]))
 		* Train the network on the batch for the set target Qs
 
 
